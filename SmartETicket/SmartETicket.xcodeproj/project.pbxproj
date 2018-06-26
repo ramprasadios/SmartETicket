@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		212585F2200FD55E0058383C /* RM-TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212585F1200FD55E0058383C /* RM-TextField.swift */; };
+		213AB17E20CBD1C100B0B698 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */; };
+		2158BC44201A1B4B0025B303 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158BC43201A1B4B0025B303 /* HomeViewController.swift */; };
+		2158BC46201A1B650025B303 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158BC45201A1B650025B303 /* LoginViewController.swift */; };
 		21A97D462007DD1D00F7F38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A97D452007DD1D00F7F38D /* AppDelegate.swift */; };
-		21A97D482007DD1D00F7F38D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A97D472007DD1D00F7F38D /* ViewController.swift */; };
 		21A97D4B2007DD1D00F7F38D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A97D492007DD1D00F7F38D /* Main.storyboard */; };
 		21A97D4D2007DD1D00F7F38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A97D4C2007DD1D00F7F38D /* Assets.xcassets */; };
 		21A97D502007DD1D00F7F38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A97D4E2007DD1D00F7F38D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		212585F1200FD55E0058383C /* RM-TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RM-TextField.swift"; sourceTree = "<group>"; };
+		213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2158BC43201A1B4B0025B303 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2158BC45201A1B650025B303 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		21A97D422007DD1D00F7F38D /* SmartETicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartETicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21A97D452007DD1D00F7F38D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21A97D472007DD1D00F7F38D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21A97D4A2007DD1D00F7F38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21A97D4C2007DD1D00F7F38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A97D4F2007DD1D00F7F38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		212585F0200FD5370058383C /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				212585F1200FD55E0058383C /* RM-TextField.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		2158BC42201A1B2E0025B303 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2158BC43201A1B4B0025B303 /* HomeViewController.swift */,
+				2158BC45201A1B650025B303 /* LoginViewController.swift */,
+				213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		21A97D392007DD1D00F7F38D = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +78,9 @@
 		21A97D442007DD1D00F7F38D /* SmartETicket */ = {
 			isa = PBXGroup;
 			children = (
+				2158BC42201A1B2E0025B303 /* ViewControllers */,
+				212585F0200FD5370058383C /* CustomUI */,
 				21A97D452007DD1D00F7F38D /* AppDelegate.swift */,
-				21A97D472007DD1D00F7F38D /* ViewController.swift */,
 				21A97D492007DD1D00F7F38D /* Main.storyboard */,
 				21A97D4C2007DD1D00F7F38D /* Assets.xcassets */,
 				21A97D4E2007DD1D00F7F38D /* LaunchScreen.storyboard */,
@@ -136,8 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21A97D482007DD1D00F7F38D /* ViewController.swift in Sources */,
+				2158BC46201A1B650025B303 /* LoginViewController.swift in Sources */,
+				212585F2200FD55E0058383C /* RM-TextField.swift in Sources */,
 				21A97D462007DD1D00F7F38D /* AppDelegate.swift in Sources */,
+				2158BC44201A1B4B0025B303 /* HomeViewController.swift in Sources */,
+				213AB17E20CBD1C100B0B698 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
