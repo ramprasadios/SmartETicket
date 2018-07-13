@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SmartETicket
+
+  Created by Ramprasad A on 13/07/18.
+  Copyright © 2018 Ramprasad A. All rights reserved.
+*/
+
+"FORGOT_PASSWORD" = "Forgot Password..?";
+"FORGOT_PASSWORD_EMIAL_ALERT" = "Please Enter your registered e-mail, you will get the password reset link";
+"EMAIL_PLACEHOLDER" = "Enter your e-mail";

@@ -25,9 +25,10 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func forgotPasswordTapped(_ sender: Any) {
-        let alertController = UIAlertController(title: "Forgot Password..?", message: "Please Enter your registered e-mail, you will get the password reset link", preferredStyle: .alert)
+        
+        let alertController = UIAlertController(title: Key.forgotPassword.localizableString, message: Key.emailErrorAlert.localizableString, preferredStyle: .alert)
         alertController.addTextField { (textField) in
-            textField.placeholder = "Enter your e-mail"
+            textField.placeholder = Key.emailPlaceholder.localizableString
         }
         let doneAction = UIAlertAction(title: "Done", style: .default, handler: nil)
         let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
@@ -37,6 +38,11 @@ class LoginViewController: UIViewController {
         
         self.present(alertController, animated: true, completion: nil)
     }
+    
+    @IBAction func loginButtonTap(_ sender: Any) {
+        
+    }
+    
 }
 
 extension LoginViewController: UITextFieldDelegate {
@@ -71,3 +77,4 @@ extension LoginViewController {
         self.view.frame.origin.y = 0.0
     }
 }
+
