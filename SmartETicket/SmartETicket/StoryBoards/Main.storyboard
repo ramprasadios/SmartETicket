@@ -102,7 +102,7 @@
                                             <rect key="frame" x="132" y="554" width="150" height="40"/>
                                             <color key="backgroundColor" red="0.35581042270000002" green="0.4026586445" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="150" id="kya-R0-b9B"/>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="kya-R0-b9B"/>
                                                 <constraint firstAttribute="height" constant="40" id="sUo-8I-5UN"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -115,6 +115,9 @@
                                                 </userDefinedRuntimeAttribute>
                                                 <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
                                             </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="loginButtonTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="imV-rs-SaV"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <constraints>
@@ -187,13 +190,14 @@
                                     <constraint firstAttribute="trailing" secondItem="HVc-Ul-xR8" secondAttribute="trailing" constant="8" id="4rd-6Q-3ne"/>
                                     <constraint firstAttribute="height" constant="100" id="7fN-TU-MmT"/>
                                     <constraint firstItem="HVc-Ul-xR8" firstAttribute="top" secondItem="T3A-BW-dN1" secondAttribute="top" constant="8" id="BRP-ck-4n9"/>
+                                    <constraint firstItem="HVc-Ul-xR8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="T3A-BW-dN1" secondAttribute="leading" constant="20" symbolic="YES" id="Q4p-Fo-shY"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="userIcon" translatesAutoresizingMaskIntoConstraints="NO" id="usx-qL-gPJ">
                                 <rect key="frame" x="157" y="70" width="100" height="100"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="JbW-qY-jXw"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="JbW-qY-jXw"/>
                                     <constraint firstAttribute="height" constant="100" id="JrY-OC-JAD"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
