@@ -12,10 +12,11 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var userNameTextField: RM_TextField!
     @IBOutlet weak var passwordTextField: RM_TextField!
+    
+    private var validation: ValidationHandler = ValidationHandler()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.addNotificationObservers()
         self.view.layer.contents = UIImage(named: "theme_image")?.cgImage
         self.navigationController?.isNavigationBarHidden = true
     }
@@ -40,9 +41,13 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func loginButtonTap(_ sender: Any) {
-        
+        let result = self.validation.validate(for: .login)
+        if result.isValid {
+            print(result.error.localizedDescription)
+        } else {
+            print(result.error.localizedDescription)
+        }
     }
-    
 }
 
 extension LoginViewController: UITextFieldDelegate {
@@ -51,30 +56,17 @@ extension LoginViewController: UITextFieldDelegate {
         textField.resignFirstResponder()
         return true
     }
-}
-
-extension LoginViewController {
     
-    func addNotificationObservers() {
-        NotificationCenter.default.addObserver(self, selector: #selector(LoginViewController.keyboardWillAppear(notification:)), name: Notification.Name.UIKeyboardWillShow, object: nil)
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
         
-        NotificationCenter.default.addObserver(self, selector: #selector(LoginViewController.keyboardWillHide(notification:)), name: Notification.Name.UIKeyboardWillHide, object: nil)
-    }
-    
-    @objc func keyboardWillAppear(notification: Notification) {
-        if let userInfo = notification.userInfo {
-            if let keyBoardHeight = (userInfo[UIKeyboardFrameEndUserInfoKey] as? NSValue)?.cgRectValue.size.height {
-                UIView.animate(withDuration: 0.5, animations: {
-                    if self.view.frame.origin.y == 0 {
-                        self.view.frame.origin.y -= keyBoardHeight
-                    }
-                }, completion: nil)
-            }
+        if let text = textField.text,
+            let textRange = Range(range, in: text) {
+            let updatedText = text.replacingCharacters(in: textRange,
+                                                       with: string)
+            let field = ValidationHandler.ValidatingField(rawValue: textField.tag)!
+            self.validation.updateModel(forField: field, withValue: updatedText)
         }
-    }
-    
-    @objc func keyboardWillHide(notification: Notification) {
-        self.view.frame.origin.y = 0.0
+        return true
     }
 }
 

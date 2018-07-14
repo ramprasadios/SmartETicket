@@ -35,4 +35,13 @@ struct Constants {
         static let alertMsg: String = "alertMsg"
         static let actionTypes: String = "alertActions"
     }
+    
+    struct ErrorKeys {
+        static let noEmailError: String = "EMAIL_ADDRESS_EMPTY"
+        static let noMobileError: String = "MOBILE_NUMBER_EMPTY"
+        static let noPasswordError: String = "PASSWORD_EMPTY"
+        static let noFirstNameError: String = "FIRST_NAME_EMPTY"
+        static let noLastNameError: String = "LAST_NAME_EMPTY"
+        static let noDOBError: String = "FIRST_NAME_EMPTY"
+    }
 }

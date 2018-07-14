@@ -37,7 +37,7 @@
                                                 <constraint firstAttribute="width" constant="100" id="lth-k7-GZl"/>
                                             </constraints>
                                         </imageView>
-                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Q2-C7-9sr" customClass="RM_TextField" customModule="SmartETicket" customModuleProvider="target">
+                                        <textField opaque="NO" tag="107" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Q2-C7-9sr" customClass="RM_TextField" customModule="SmartETicket" customModuleProvider="target">
                                             <rect key="frame" x="16" y="424" width="382" height="45"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
@@ -55,7 +55,7 @@
                                                 <outlet property="delegate" destination="BYZ-38-t0r" id="hSw-jh-a7J"/>
                                             </connections>
                                         </textField>
-                                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0DS-8V-dNa" customClass="RM_TextField" customModule="SmartETicket" customModuleProvider="target">
+                                        <textField opaque="NO" tag="108" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0DS-8V-dNa" customClass="RM_TextField" customModule="SmartETicket" customModuleProvider="target">
                                             <rect key="frame" x="16" y="489" width="382" height="45"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="45" id="Qdw-ez-6vz"/>
@@ -211,7 +211,7 @@
                                 <rect key="frame" x="0.0" y="178" width="414" height="558"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tp7-PO-mIh">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="273"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="326"/>
                                         <subviews>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v3u-5m-JNE" customClass="RM_TextField" customModule="SmartETicket" customModuleProvider="target">
                                                 <rect key="frame" x="8" y="8" width="195" height="45"/>
@@ -279,7 +279,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Phone Number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FJf-mM-gJp" customClass="RM_TextField" customModule="SmartETicket" customModuleProvider="target">
-                                                <rect key="frame" x="8" y="167" width="398" height="45"/>
+                                                <rect key="frame" x="8" y="220" width="398" height="45"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="oBf-Eh-HCM"/>
                                                 </constraints>
@@ -292,7 +292,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </textField>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waK-HY-L2Y">
-                                                <rect key="frame" x="8" y="220" width="398" height="45"/>
+                                                <rect key="frame" x="8" y="273" width="398" height="45"/>
                                                 <color key="backgroundColor" red="0.2685053677" green="0.57238214809999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="45" id="zpd-Pk-eHc"/>
@@ -301,15 +301,29 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                             </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="voi-KV-Qah" customClass="RM_TextField" customModule="SmartETicket" customModuleProvider="target">
+                                                <rect key="frame" x="8" y="167" width="398" height="45"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="45" id="a4a-8l-MMS"/>
+                                                </constraints>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isBorderHidden" value="YES"/>
+                                                    <userDefinedRuntimeAttribute type="image" keyPath="leftViewImage" value="email"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="FJf-mM-gJp" firstAttribute="leading" secondItem="mfo-Oh-JbJ" secondAttribute="leading" id="5YM-0d-Lh9"/>
+                                            <constraint firstItem="voi-KV-Qah" firstAttribute="leading" secondItem="mfo-Oh-JbJ" secondAttribute="leading" id="6xj-8S-nLv"/>
                                             <constraint firstItem="fTU-3r-TAe" firstAttribute="leading" secondItem="v3u-5m-JNE" secondAttribute="trailing" constant="8" id="7gd-GX-Uhd"/>
-                                            <constraint firstItem="FJf-mM-gJp" firstAttribute="top" secondItem="mfo-Oh-JbJ" secondAttribute="bottom" constant="8" id="CGE-VW-iIb"/>
                                             <constraint firstAttribute="trailing" secondItem="fTU-3r-TAe" secondAttribute="trailing" constant="8" id="Ftz-55-SVI"/>
                                             <constraint firstItem="fTU-3r-TAe" firstAttribute="top" secondItem="v3u-5m-JNE" secondAttribute="top" id="HQz-OS-sMX"/>
                                             <constraint firstItem="WGc-iz-sGM" firstAttribute="trailing" secondItem="iZ3-o5-dkO" secondAttribute="trailing" id="Ijr-It-GxH"/>
+                                            <constraint firstItem="FJf-mM-gJp" firstAttribute="top" secondItem="voi-KV-Qah" secondAttribute="bottom" constant="8" id="L8q-dT-Ba2"/>
                                             <constraint firstItem="iZ3-o5-dkO" firstAttribute="trailing" secondItem="fTU-3r-TAe" secondAttribute="trailing" id="Lf6-I3-vLs"/>
                                             <constraint firstItem="WGc-iz-sGM" firstAttribute="top" secondItem="mfo-Oh-JbJ" secondAttribute="top" id="Na5-q6-zPM"/>
                                             <constraint firstItem="fTU-3r-TAe" firstAttribute="width" secondItem="v3u-5m-JNE" secondAttribute="width" id="QR0-mq-SFg"/>
@@ -324,8 +338,10 @@
                                             <constraint firstItem="WGc-iz-sGM" firstAttribute="leading" secondItem="mfo-Oh-JbJ" secondAttribute="trailing" constant="8" id="itf-nL-7ra"/>
                                             <constraint firstItem="mfo-Oh-JbJ" firstAttribute="top" secondItem="iZ3-o5-dkO" secondAttribute="bottom" constant="8" id="koS-x7-hGi"/>
                                             <constraint firstItem="waK-HY-L2Y" firstAttribute="leading" secondItem="Tp7-PO-mIh" secondAttribute="leading" constant="8" id="nMy-Jn-5vY"/>
-                                            <constraint firstItem="waK-HY-L2Y" firstAttribute="top" secondItem="FJf-mM-gJp" secondAttribute="bottom" constant="8" id="tuh-f9-Xqs"/>
+                                            <constraint firstItem="voi-KV-Qah" firstAttribute="top" secondItem="mfo-Oh-JbJ" secondAttribute="bottom" constant="8" id="pYD-0Q-Udo"/>
+                                            <constraint firstItem="waK-HY-L2Y" firstAttribute="top" secondItem="FJf-mM-gJp" secondAttribute="bottom" constant="8" id="sYV-Bw-fDe"/>
                                             <constraint firstItem="iZ3-o5-dkO" firstAttribute="leading" secondItem="v3u-5m-JNE" secondAttribute="leading" id="uvi-Dv-gUT"/>
+                                            <constraint firstItem="voi-KV-Qah" firstAttribute="trailing" secondItem="WGc-iz-sGM" secondAttribute="trailing" id="zuR-Dh-gPZ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -333,7 +349,7 @@
                                     <constraint firstAttribute="trailing" secondItem="Tp7-PO-mIh" secondAttribute="trailing" id="0aX-MM-rwA"/>
                                     <constraint firstItem="Tp7-PO-mIh" firstAttribute="top" secondItem="vBs-jX-1FU" secondAttribute="top" id="HSK-x3-dJm"/>
                                     <constraint firstItem="Tp7-PO-mIh" firstAttribute="leading" secondItem="vBs-jX-1FU" secondAttribute="leading" id="c5H-g1-ILe"/>
-                                    <constraint firstAttribute="bottom" secondItem="Tp7-PO-mIh" secondAttribute="bottom" id="w4Z-OX-84L"/>
+                                    <constraint firstAttribute="bottom" secondItem="Tp7-PO-mIh" secondAttribute="bottom" constant="8" id="gFv-dE-Cbz"/>
                                 </constraints>
                             </scrollView>
                         </subviews>

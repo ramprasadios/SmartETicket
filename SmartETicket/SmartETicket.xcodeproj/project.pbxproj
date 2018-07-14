@@ -7,27 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211B36ED20F8FF94004B1CF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 211B36EC20F8FF94004B1CF2 /* Localizable.strings */; };
+		211B36EF20F9001A004B1CF2 /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B36EE20F9001A004B1CF2 /* AppManager.swift */; };
+		211B36F120F9016B004B1CF2 /* ValidationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B36F020F9016B004B1CF2 /* ValidationManager.swift */; };
+		211B36F320F90464004B1CF2 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B36F220F90464004B1CF2 /* String+Extension.swift */; };
+		211B36F520F908F7004B1CF2 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B36F420F908F7004B1CF2 /* ErrorManager.swift */; };
 		212585F2200FD55E0058383C /* RM-TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212585F1200FD55E0058383C /* RM-TextField.swift */; };
 		213AB17E20CBD1C100B0B698 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */; };
 		2158BC44201A1B4B0025B303 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158BC43201A1B4B0025B303 /* HomeViewController.swift */; };
 		2158BC46201A1B650025B303 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158BC45201A1B650025B303 /* LoginViewController.swift */; };
 		21A5746920F8B9B700CCD2A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5746820F8B9B700CCD2A7 /* Constants.swift */; };
-		21A5746B20F8BBC900CCD2A7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21A5746A20F8BBC900CCD2A7 /* Localizable.strings */; };
 		21A5747020F8CAA700CCD2A7 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5746F20F8CAA700CCD2A7 /* UIViewController+Extension.swift */; };
 		21A5747320F8D6AE00CCD2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A5747220F8D6AE00CCD2A7 /* Main.storyboard */; };
 		21A5747520F8D6BD00CCD2A7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A5747420F8D6BD00CCD2A7 /* Home.storyboard */; };
 		21A97D462007DD1D00F7F38D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A97D452007DD1D00F7F38D /* AppDelegate.swift */; };
 		21A97D4D2007DD1D00F7F38D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21A97D4C2007DD1D00F7F38D /* Assets.xcassets */; };
 		21A97D502007DD1D00F7F38D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21A97D4E2007DD1D00F7F38D /* LaunchScreen.storyboard */; };
+		74DE1EDD5A50925E06429F93 /* Pods_SmartETicket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD6DA2EECB24996E984BCA2 /* Pods_SmartETicket.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211B36EC20F8FF94004B1CF2 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		211B36EE20F9001A004B1CF2 /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		211B36F020F9016B004B1CF2 /* ValidationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationManager.swift; sourceTree = "<group>"; };
+		211B36F220F90464004B1CF2 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		211B36F420F908F7004B1CF2 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
 		212585F1200FD55E0058383C /* RM-TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RM-TextField.swift"; sourceTree = "<group>"; };
 		213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		2158BC43201A1B4B0025B303 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2158BC45201A1B650025B303 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		21A5746820F8B9B700CCD2A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		21A5746A20F8BBC900CCD2A7 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		21A5746F20F8CAA700CCD2A7 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		21A5747220F8D6AE00CCD2A7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		21A5747420F8D6BD00CCD2A7 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
@@ -36,6 +45,9 @@
 		21A97D4C2007DD1D00F7F38D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21A97D4F2007DD1D00F7F38D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21A97D512007DD1D00F7F38D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		684E9CD5AC98C655B2CDEF81 /* Pods-SmartETicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartETicket.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartETicket/Pods-SmartETicket.release.xcconfig"; sourceTree = "<group>"; };
+		8BD6DA2EECB24996E984BCA2 /* Pods_SmartETicket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartETicket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		992CF8F49BE2A6398BCB23C8 /* Pods-SmartETicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartETicket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartETicket/Pods-SmartETicket.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,12 +55,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DE1EDD5A50925E06429F93 /* Pods_SmartETicket.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		211B36EB20F8FF94004B1CF2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				211B36EC20F8FF94004B1CF2 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		212585F0200FD5370058383C /* CustomUI */ = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				21A5746820F8B9B700CCD2A7 /* Constants.swift */,
+				211B36EE20F9001A004B1CF2 /* AppManager.swift */,
+				211B36F020F9016B004B1CF2 /* ValidationManager.swift */,
+				211B36F420F908F7004B1CF2 /* ErrorManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -79,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				21A5746F20F8CAA700CCD2A7 /* UIViewController+Extension.swift */,
+				211B36F220F90464004B1CF2 /* String+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -97,6 +122,8 @@
 			children = (
 				21A97D442007DD1D00F7F38D /* SmartETicket */,
 				21A97D432007DD1D00F7F38D /* Products */,
+				45BD3FD391AF92465F36DA0E /* Pods */,
+				65DC55A7E640E2B208C978C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +138,7 @@
 		21A97D442007DD1D00F7F38D /* SmartETicket */ = {
 			isa = PBXGroup;
 			children = (
+				211B36EB20F8FF94004B1CF2 /* Resources */,
 				21A5747120F8D68D00CCD2A7 /* StoryBoards */,
 				21A5746C20F8CA6300CCD2A7 /* Extensions */,
 				21A5746720F8B9A100CCD2A7 /* Helpers */,
@@ -120,9 +148,25 @@
 				21A97D4C2007DD1D00F7F38D /* Assets.xcassets */,
 				21A97D4E2007DD1D00F7F38D /* LaunchScreen.storyboard */,
 				21A97D512007DD1D00F7F38D /* Info.plist */,
-				21A5746A20F8BBC900CCD2A7 /* Localizable.strings */,
 			);
 			path = SmartETicket;
+			sourceTree = "<group>";
+		};
+		45BD3FD391AF92465F36DA0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				992CF8F49BE2A6398BCB23C8 /* Pods-SmartETicket.debug.xcconfig */,
+				684E9CD5AC98C655B2CDEF81 /* Pods-SmartETicket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		65DC55A7E640E2B208C978C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD6DA2EECB24996E984BCA2 /* Pods_SmartETicket.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21A97D542007DD1D00F7F38D /* Build configuration list for PBXNativeTarget "SmartETicket" */;
 			buildPhases = (
+				EA0D95C09B3937079A364287 /* [CP] Check Pods Manifest.lock */,
 				21A97D3E2007DD1D00F7F38D /* Sources */,
 				21A97D3F2007DD1D00F7F38D /* Frameworks */,
 				21A97D402007DD1D00F7F38D /* Resources */,
+				CA38F6E3F56780243083A6DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,15 +230,54 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				211B36ED20F8FF94004B1CF2 /* Localizable.strings in Resources */,
 				21A97D502007DD1D00F7F38D /* LaunchScreen.storyboard in Resources */,
 				21A5747520F8D6BD00CCD2A7 /* Home.storyboard in Resources */,
-				21A5746B20F8BBC900CCD2A7 /* Localizable.strings in Resources */,
 				21A97D4D2007DD1D00F7F38D /* Assets.xcassets in Resources */,
 				21A5747320F8D6AE00CCD2A7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CA38F6E3F56780243083A6DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartETicket/Pods-SmartETicket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartETicket/Pods-SmartETicket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0D95C09B3937079A364287 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartETicket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		21A97D3E2007DD1D00F7F38D /* Sources */ = {
@@ -202,10 +287,14 @@
 				2158BC46201A1B650025B303 /* LoginViewController.swift in Sources */,
 				212585F2200FD55E0058383C /* RM-TextField.swift in Sources */,
 				21A97D462007DD1D00F7F38D /* AppDelegate.swift in Sources */,
+				211B36F120F9016B004B1CF2 /* ValidationManager.swift in Sources */,
+				211B36F520F908F7004B1CF2 /* ErrorManager.swift in Sources */,
 				2158BC44201A1B4B0025B303 /* HomeViewController.swift in Sources */,
 				21A5747020F8CAA700CCD2A7 /* UIViewController+Extension.swift in Sources */,
 				213AB17E20CBD1C100B0B698 /* RegistrationViewController.swift in Sources */,
 				21A5746920F8B9B700CCD2A7 /* Constants.swift in Sources */,
+				211B36F320F90464004B1CF2 /* String+Extension.swift in Sources */,
+				211B36EF20F9001A004B1CF2 /* AppManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +421,7 @@
 		};
 		21A97D552007DD1D00F7F38D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 992CF8F49BE2A6398BCB23C8 /* Pods-SmartETicket.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -346,6 +436,7 @@
 		};
 		21A97D562007DD1D00F7F38D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684E9CD5AC98C655B2CDEF81 /* Pods-SmartETicket.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
