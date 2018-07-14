@@ -12,6 +12,8 @@ class RegistrationViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.view.layer.contents = UIImage(named: "signup_theme")?.cgImage
     }
 
     override func didReceiveMemoryWarning() {

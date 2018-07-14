@@ -40,6 +40,15 @@ class RM_TextField: UITextField {
             self.setBottonBorder()
         }
     }
+    
+    /// Textfield placeholder color
+    @IBInspectable open var placeholderColor: UIColor? = UIColor.white.withAlphaComponent(0.5) {
+        didSet {
+            guard let placeholder = self.placeholder, let color = self.placeholderColor else { return }
+            let attributes = [NSAttributedStringKey.foregroundColor: color]
+            self.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: attributes)
+        }
+    }
 
     override init(frame: CGRect) {
         super.init(frame: frame)

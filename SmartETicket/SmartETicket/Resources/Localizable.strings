@@ -6,8 +6,9 @@
   Copyright © 2018 Ramprasad A. All rights reserved.
 */
 
+//Validation
+
 "FORGOT_PASSWORD" = "Forgot Password..?";
-"FORGOT_PASSWORD_EMIAL_ALERT" = "Please Enter your registered e-mail, you will get the password reset link";
 "EMAIL_PLACEHOLDER" = "Enter your e-mail";
 "EMAIL_ADDRESS_EMPTY" = "Please Enter the Email Address";
 "MOBILE_NUMBER_EMPTY" = "Please Enter Mobile Number";
@@ -19,4 +20,6 @@
 "INVALID_EMAIL" = "Please Enter Valid E-Mail Id";
 "INVALID_MOBILE" = "Please Enter Valid Mobile Number";
 
+//Responses
 
+"FORGOT_PASSWORD_EMIAL_ALERT" = "Please Enter your registered e-mail, you will get the password reset link";
