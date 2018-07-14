@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "51CAB5ECDD06AEE38359390E3A3D6300"
+               BlueprintIdentifier = "FDC234FF7BA74FF3A30D4E2C58ABCE4C"
                BuildableName = "Pods_SmartETicket.framework"
                BlueprintName = "Pods-SmartETicket"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "51CAB5ECDD06AEE38359390E3A3D6300"
+            BlueprintIdentifier = "FDC234FF7BA74FF3A30D4E2C58ABCE4C"
             BuildableName = "Pods_SmartETicket.framework"
             BlueprintName = "Pods-SmartETicket"
             ReferencedContainer = "container:Pods.xcodeproj">
