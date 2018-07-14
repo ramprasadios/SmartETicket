@@ -6,6 +6,5 @@ target 'SmartETicket' do
   use_frameworks!
 
   # Pods for SmartETicket
-  pod 'IQKeyboardManagerSwift'
 
 end
