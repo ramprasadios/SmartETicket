@@ -1,14 +1,14 @@
 //
-//  HomeViewController.swift
+//  HomeNavigationController.swift
 //  SmartETicket
 //
-//  Created by Ramprasad A on 25/01/18.
+//  Created by Ramprasad A on 14/07/18.
 //  Copyright © 2018 Ramprasad A. All rights reserved.
 //
 
 import UIKit
 
-class HomeViewController: UIViewController {
+class HomeNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,5 +18,3 @@ class HomeViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
 }
-
-

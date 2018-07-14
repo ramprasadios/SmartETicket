@@ -14,7 +14,11 @@
 		211B36F520F908F7004B1CF2 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211B36F420F908F7004B1CF2 /* ErrorManager.swift */; };
 		212585F2200FD55E0058383C /* RM-TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212585F1200FD55E0058383C /* RM-TextField.swift */; };
 		213AB17E20CBD1C100B0B698 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */; };
-		2158BC44201A1B4B0025B303 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158BC43201A1B4B0025B303 /* HomeViewController.swift */; };
+		2141067320F9EE4E004C82FD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141067220F9EE4E004C82FD /* HomeViewController.swift */; };
+		2141067520F9EE79004C82FD /* StoryBoardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141067420F9EE79004C82FD /* StoryBoardManager.swift */; };
+		2141067720F9F35A004C82FD /* SET_Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141067620F9F35A004C82FD /* SET_Protocols.swift */; };
+		2141067A20F9F6DD004C82FD /* HomeNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141067920F9F6DD004C82FD /* HomeNavigationController.swift */; };
+		2141067C20F9F6EC004C82FD /* LoginNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2141067B20F9F6EC004C82FD /* LoginNavigationController.swift */; };
 		2158BC46201A1B650025B303 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2158BC45201A1B650025B303 /* LoginViewController.swift */; };
 		21A5746920F8B9B700CCD2A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5746820F8B9B700CCD2A7 /* Constants.swift */; };
 		21A5747020F8CAA700CCD2A7 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21A5746F20F8CAA700CCD2A7 /* UIViewController+Extension.swift */; };
@@ -34,7 +38,11 @@
 		211B36F420F908F7004B1CF2 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
 		212585F1200FD55E0058383C /* RM-TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RM-TextField.swift"; sourceTree = "<group>"; };
 		213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
-		2158BC43201A1B4B0025B303 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2141067220F9EE4E004C82FD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2141067420F9EE79004C82FD /* StoryBoardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardManager.swift; sourceTree = "<group>"; };
+		2141067620F9F35A004C82FD /* SET_Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SET_Protocols.swift; sourceTree = "<group>"; };
+		2141067920F9F6DD004C82FD /* HomeNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavigationController.swift; sourceTree = "<group>"; };
+		2141067B20F9F6EC004C82FD /* LoginNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNavigationController.swift; sourceTree = "<group>"; };
 		2158BC45201A1B650025B303 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		21A5746820F8B9B700CCD2A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		21A5746F20F8CAA700CCD2A7 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
@@ -78,10 +86,27 @@
 			path = CustomUI;
 			sourceTree = "<group>";
 		};
+		2141066F20F9EE0B004C82FD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2141067220F9EE4E004C82FD /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2141067820F9F6C2004C82FD /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2141067920F9F6DD004C82FD /* HomeNavigationController.swift */,
+				2141067B20F9F6EC004C82FD /* LoginNavigationController.swift */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
 		2158BC42201A1B2E0025B303 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				2158BC43201A1B4B0025B303 /* HomeViewController.swift */,
+				2141066F20F9EE0B004C82FD /* Home */,
 				2158BC45201A1B650025B303 /* LoginViewController.swift */,
 				213AB17D20CBD1C100B0B698 /* RegistrationViewController.swift */,
 			);
@@ -95,6 +120,8 @@
 				211B36EE20F9001A004B1CF2 /* AppManager.swift */,
 				211B36F020F9016B004B1CF2 /* ValidationManager.swift */,
 				211B36F420F908F7004B1CF2 /* ErrorManager.swift */,
+				2141067420F9EE79004C82FD /* StoryBoardManager.swift */,
+				2141067620F9F35A004C82FD /* SET_Protocols.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -138,6 +165,7 @@
 		21A97D442007DD1D00F7F38D /* SmartETicket */ = {
 			isa = PBXGroup;
 			children = (
+				2141067820F9F6C2004C82FD /* NavigationControllers */,
 				211B36EB20F8FF94004B1CF2 /* Resources */,
 				21A5747120F8D68D00CCD2A7 /* StoryBoards */,
 				21A5746C20F8CA6300CCD2A7 /* Extensions */,
@@ -285,13 +313,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				2158BC46201A1B650025B303 /* LoginViewController.swift in Sources */,
+				2141067C20F9F6EC004C82FD /* LoginNavigationController.swift in Sources */,
 				212585F2200FD55E0058383C /* RM-TextField.swift in Sources */,
+				2141067520F9EE79004C82FD /* StoryBoardManager.swift in Sources */,
 				21A97D462007DD1D00F7F38D /* AppDelegate.swift in Sources */,
 				211B36F120F9016B004B1CF2 /* ValidationManager.swift in Sources */,
 				211B36F520F908F7004B1CF2 /* ErrorManager.swift in Sources */,
-				2158BC44201A1B4B0025B303 /* HomeViewController.swift in Sources */,
 				21A5747020F8CAA700CCD2A7 /* UIViewController+Extension.swift in Sources */,
 				213AB17E20CBD1C100B0B698 /* RegistrationViewController.swift in Sources */,
+				2141067720F9F35A004C82FD /* SET_Protocols.swift in Sources */,
+				2141067320F9EE4E004C82FD /* HomeViewController.swift in Sources */,
+				2141067A20F9F6DD004C82FD /* HomeNavigationController.swift in Sources */,
 				21A5746920F8B9B700CCD2A7 /* Constants.swift in Sources */,
 				211B36F320F90464004B1CF2 /* String+Extension.swift in Sources */,
 				211B36EF20F9001A004B1CF2 /* AppManager.swift in Sources */,

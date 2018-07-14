@@ -44,7 +44,7 @@ class ValidationHandler {
         switch validationPage {
         case .login:
             guard let email = self.loginUserName, !email.isEmpty else { return (false, ValidationError.emailEmpty)}
-            guard let _ = self.loginPassword else { return (false, ValidationError.passwordEmpty) }
+            guard let password = self.loginPassword, !password.isEmpty else { return (false, ValidationError.passwordEmpty) }
             guard email.isValidEmail else { return (false, ValidationError.inavlidEmail)}
             return (true, ValidationError.none)
         case .signup:

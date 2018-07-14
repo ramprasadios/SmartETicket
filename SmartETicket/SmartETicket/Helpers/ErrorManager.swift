@@ -41,8 +41,8 @@ enum ValidationError {
             return NSLocalizedString("INVALID_MOBILE", comment: "")
         case .lastNameEmpty:
             return NSLocalizedString("LAST_NAME_EMPTY", comment: "")
-        default:
-            return ""
+        case .passwordEmpty:
+            return NSLocalizedString("PASSWORD_EMPTY", comment: "")
         }
     }
 }

@@ -44,7 +44,9 @@ class LoginViewController: UIViewController {
         let result = self.validation.validate(for: .login)
         if result.isValid {
             print(result.error.localizedDescription)
+            self.setRootNavController(toType: .homeNavigation, ofStoryBoard: .home)
         } else {
+            self.showNormalAlert(withTitle: "Error...!", andMessage: result.error.localizedDescription)
             print(result.error.localizedDescription)
         }
     }
