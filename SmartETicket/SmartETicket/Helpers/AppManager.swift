@@ -14,4 +14,8 @@ class AppManager: NSObject {
     static func initialSetup() {
         IQKeyboardManager.shared.enable = true
     }
+    
+    static func logout() {
+        
+    }
 }

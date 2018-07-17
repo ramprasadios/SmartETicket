@@ -245,6 +245,13 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXD-WG-aTC">
+                                <rect key="frame" x="319" y="28" width="48" height="30"/>
+                                <state key="normal" title="Cancel"/>
+                                <connections>
+                                    <action selector="cancelTapped:" destination="o8M-Fq-Q0u" eventType="touchUpInside" id="QcU-ck-diw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -256,9 +263,11 @@
                             <constraint firstItem="fdI-lX-sZ5" firstAttribute="trailing" secondItem="tB0-Ew-V9q" secondAttribute="trailing" constant="20" id="M4n-YV-Dg8"/>
                             <constraint firstItem="ybM-NH-uGm" firstAttribute="trailing" secondItem="tB0-Ew-V9q" secondAttribute="trailing" id="MIV-n7-T6R"/>
                             <constraint firstItem="ybM-NH-uGm" firstAttribute="leading" secondItem="tB0-Ew-V9q" secondAttribute="leading" id="MgM-Pu-Hmy"/>
+                            <constraint firstItem="pXD-WG-aTC" firstAttribute="top" secondItem="fdI-lX-sZ5" secondAttribute="top" constant="8" id="P6x-v9-Nab"/>
                             <constraint firstItem="mOg-ia-cD3" firstAttribute="top" secondItem="tF2-oB-Xe1" secondAttribute="bottom" constant="8" id="RFv-29-qSG"/>
                             <constraint firstItem="u5n-N7-ZWE" firstAttribute="leading" secondItem="fdI-lX-sZ5" secondAttribute="leading" constant="8" id="Ro2-6d-2dC"/>
                             <constraint firstItem="hcs-1v-16v" firstAttribute="leading" secondItem="fdI-lX-sZ5" secondAttribute="leading" constant="8" id="UnA-88-dd0"/>
+                            <constraint firstItem="fdI-lX-sZ5" firstAttribute="trailing" secondItem="pXD-WG-aTC" secondAttribute="trailing" constant="8" id="Wvi-FD-BDW"/>
                             <constraint firstItem="tF2-oB-Xe1" firstAttribute="trailing" secondItem="yTu-xe-m5y" secondAttribute="trailing" id="XgL-AU-GQr"/>
                             <constraint firstItem="tB0-Ew-V9q" firstAttribute="leading" secondItem="fdI-lX-sZ5" secondAttribute="leading" constant="20" id="ZKg-WF-icz"/>
                             <constraint firstItem="fdI-lX-sZ5" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="F97-rx-mAB" secondAttribute="bottom" constant="8" id="a5S-2T-nVG"/>
@@ -297,7 +306,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yf5-jV-lew" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-336" y="-89.055472263868069"/>
+            <point key="canvasLocation" x="-67" y="-91"/>
         </scene>
     </scenes>
     <resources>

@@ -20,7 +20,6 @@ enum Key: String {
     case emailErrorAlert = "FORGOT_PASSWORD_EMIAL_ALERT"
     case emailPlaceholder = "EMAIL_PLACEHOLDER"
     
-    
     var localizableString: String {
         return NSLocalizedString(self.rawValue, comment: "")
     }
